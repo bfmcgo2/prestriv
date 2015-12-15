@@ -1,0 +1,13 @@
+
+/* primary CTA ribbon */
+@mixin fontface($font-family) {
+  @font-face {
+    font-family: $font-family;
+      src: url('../css/fonts/Baskerville-Italic.eot');
+      src: url('../css/fonts/Baskerville-Italic.eot?#iefix') format('embedded-opentype'),
+           url('../css/fonts/Baskerville-Italic.woff') format('woff'),
+           url('../css/fonts/Baskerville-Italic.ttf') format('truetype'),
+           url('../css/fonts/Baskerville-Italic.svg##{$font-family}') format('svg');
+    
+  }
+}

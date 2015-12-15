@@ -1,0 +1,14 @@
+
+/* primary CTA button */
+@mixin background_img($img, $top, $bg-position) {
+	position:absolute;
+	height:100%;
+	background-image:url($img);
+	background-repeat:no-repeat;
+	background-size:cover;
+	min-width:83.60175695%;
+	left:50%;
+	top:$top;
+	transform:translateX(-50%);
+	background-position:$bg-position;
+}

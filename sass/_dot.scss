@@ -1,0 +1,12 @@
+
+/* primary CTA button */
+@mixin dot($width, $height, $top, $left) {
+	width:$width;
+	height:$height;
+	position:absolute;
+	top:$top;
+	left:$left;
+	-webkit-border-image: url(../assets/img/dot.png) 30 repeat; /* Safari 3.1-5 */
+    -o-border-image: url(../assets/img/dot.png) 30 repeat; /* Opera 11-12.1 */
+    border-image: url(../assets/img/dot.png) 30 repeat;
+}
